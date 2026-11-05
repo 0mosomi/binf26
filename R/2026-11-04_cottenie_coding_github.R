@@ -49,3 +49,6 @@ names(fasta_db) <- "NC_010473.1 Escherichia coli str. K-12 substr. DH10B, comple
 
 # 5. 3-mer 
 oligonucleotideFrequency(fasta_db, width = 3)
+
+# 6. 4-mer
+oligonucleotideFrequency(fasta_db, width = 4)
